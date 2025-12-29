@@ -3,11 +3,11 @@
 #let cvdata = yaml("template.yml")
 
 #let uservars = (
-    headingfont: "Linux Libertine",
-    bodyfont: "Linux Libertine",
-    fontsize: 10pt, // 10pt, 11pt, 12pt
-    linespacing: 6pt,
-    sectionspacing: 0pt,
+    headingfont: "PT Serif",
+    bodyfont: "PT Serif",
+    fontsize: 9pt, // 10pt, 11pt, 12pt
+    linespacing: 7pt,
+    sectionspacing: 6pt,
     showAddress:  true, // true/false show address in contact info
     showNumber: true,  // true/false show phone number in contact info
     showTitle: true,   // true/false show title in heading
@@ -27,7 +27,6 @@
     // add custom document style rules here
     set page(
         paper: "us-letter", // a4, us-letter
-        numbering: "1 / 1",
         number-align: center, // left, center, right
         margin: 1.25cm, // 1.25cm, 1.87cm, 2.5cm
     )
@@ -51,8 +50,8 @@
 #show: doc => cvinit(doc)
 
 #cvheading(cvdata, uservars)
-#cvwork(cvdata)
 #cveducation(cvdata)
+#cvwork(cvdata)
 #cvaffiliations(cvdata)
 #cvprojects(cvdata)
 #cvawards(cvdata)

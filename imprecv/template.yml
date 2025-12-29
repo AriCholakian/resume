@@ -25,170 +25,120 @@ work:
         startDate: 2025-01-01
         endDate: 2025-05-01
         highlights:
-          - Prepared and issued nearly 30 mechanical drawing sets in AutoCAD and Revit 3D for a variety of projects, including data centres, biotechnical labs, office renovations, multi-unit residential projects, and District Energy connections
-          - Used industry standards and supplier connections to design energy-efficient and cost-effective HVAC and plumbing systems
+          - Prepared and issued nearly 30 mechanical drawing sets in AutoCAD and Revit 3D for a variety of projects, including data centres, biotech labs, office renovations, multi-unit residential projects, and District Energy connections
+          - Designed energy-efficient and cost-effective HVAC and plumbing systems according to standards and manufacturer guidelines
+          - Ran flow, energy, and stress simulations using internal and industry-standard tools like AutoCAD MEP and CAEPIPE
 
-  - organization: National Aeronautics and Space Administration - Jet Propulsion Laboratory
-    url: https://example.com
-    location: Pasadena, California
+  - organization: UBC Orbit - Satellite Design Team
+    url: 
+    location: 
     positions:
-      - position: Senior Developer
-        startDate: 2016-02-19
-        endDate: 2019-05-31
+      - position: Captain and Lead Systems Engineer
+        startDate: 2025-09-01
+        endDate: Present
         highlights:
-          - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
-          - Spearheaded the development of a mission-critical software module, resulting in a 30% improvement in data processing efficiency for the Mars Rover project.
-          - Led a cross-functional team in implementing agile methodologies, reducing project timelines by 20% and ensuring timely delivery of software updates for multiple space exploration missions.
+          - Oversaw the high level system architecture, design, integration, and verification of the *ALEASAT* project, a student-led disaster recovery CubeSat mission at UBC with the European Space Agency (ESA)
+          - Designed budgets and enabled the integration of the satellite's many subsystems like power, on-board software, and communications
+          - Supported FlatSats, vibration, thermal and EMC testing campaigns to verify functionality
+          - Led the *team of 70* undergraduate and graduate engineering students to meet mission objectives and worked directly with ESA, ITU, IARU, ISED, Global Affairs Canada and Radio Amateurs to ensure regulatory compliance
+      - position: Radio Frequency Communications and  Structure Designer
+        startDate: 2023-09-01
+        endDate: 2025-05-01
+        highlights:
+          - Designed the Antenna Deployer Module timer PCB using Altium, followed by fabrication and SMT reflow assembly
+          - Designed a space-qualified burn-wire deployer mechanism and carried out environmental testing in ESA CubeSat facilities, adhering to Design for Manufacture practices and ECSS guidelines
+          - Simulated antenna properties and radiation patterns in Ansys Electromagnetic Suite to optimize for LEO omnidirectionality
+          
 
 education:
-  - institution: Open University
-    url: https://example.com/
-    area: Computer Science
-    studyType: Bachelor of Science
-    startDate: 2017-08-01
-    endDate: 2021-06-30
-    location: City of London, United Kingdom
-    honors:
-      - 4.0 / 4.0 GPA
-      - President's List
-      - Dean's List
+  - institution: University of British Columbia
+    url: https://www.engphys.ubc.ca/
+    location: Vancouver, BC
+    area:  Engineering Physics, 3.70 GPA
+    studyType: Bachelor of Applied Science
+    startDate: 2023-09-01
+    endDate: 2028-05-01
     courses:
-      - Algorithms & Data Structures
-      - Applications in Quantitative Finance
-      - Engineering Data Analysis
-      - Compiler Architecture
+      - Machine Design
+      - Software Construction
+      - Signals & Systems
+      - Fluid Mechanics II
+      - Machine Learning
+      - Quantum Mechanics
+      
     highlights:
-      - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
-      - "*Activities*: Debating, Chess, Cricket"
+      - "*Activities*: 40-hour Machining Certification, Engineering Physics Student Council, Clubroom Manager"
 
 affiliations:
-  - organization: White Hat Hackers Association
-    position: Vice President for Internal Affairs
-    location: Cambridge, United Kingdom
-    url: https://example.com
-    startDate: 2020-05-30
-    endDate: 2021-05-30
-    highlights:
-      - But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.
-      - But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
-      - Can you then suppose that those heroic men performed their famous deeds without any motive at all?
-  - organization: London Bridge Toastmasters Club
-    position: Member
-    location: City of London, United Kingdom
-    url:
-    startDate: 2022-06-15
-    endDate: 2023-06-30
-    highlights:
-      - Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International
-      - Promising Toastmaster of the Year (PY 2022-2023)
-      - Tell me, pray, what explanation do you put upon their actions?
 
 awards:
-  - title: Champion in the Division A District X Speech Evaluation Contest
-    date: 2023-05-09
-    issuer: Toastmasters International
-    url:
-    location: City of London, United Kingdom
-    highlights:
-  - title: "Finalist in the 2020 SCG Bangkok Business Challenge Global Competition"
-    date: 2020-07-12
-    issuer: Sasin School of Management
-    url:
-    location: Bangkok, Thailand
-    highlights:
-      - "Made it to the Top 5 (selected from over 100 teams) in the world for the semi-finals of the SCG Bangkok Business Challenge #sym.at Sasin 2020 Global Competition held at Bangkok, Thailand from July 7-12, 2020."
-      - "Served as the speaker and presented in the 60-second pitch round of the Opening Reception of the SCG Bangkok Business Challenge #sym.at Sasin 2022 for Team London Bridge."
 
 certificates:
-  - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
-    date: 2021-09-01
-    issuer: Coursera
-    url: https://example.com
-    id: "1MPR3CVR3SUM3"
 
 publications:
-  - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
-    publisher: Theoretical and Computational Fluid Dynamics
-    releaseDate: 2020-09-30
-    url: https://example.com
+  - name: A Dynamic Channel Emulator for CubeSat System Test and Integration
+    publisher: 2024 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE) 
+    releaseDate: 2024-09-01
+    url: https://ieeexplore.ieee.org/document/10667238
+
+
+  - name: Using a Dynamic Channel Emulator for CubeSat GNSS Receiver Test and Integration
+    publisher: 2025 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE) 
+    releaseDate: 2025-05-01
+    url: https://ccece2025.ieee.ca/technical-program/#:~:text=Using%20a%20Dynamic%20Channel%20Emulator%20for%20CubeSat%20GNSS%20Receiver%20Test%20and%20IntegrationEisha%20Khan%2C%20David%20Tang%2C%20Ari%20Cholakian%2C%20Max%20Xiang%2C%20Warrick%20Lo%2C%20David%20G.%20Michelson
 
 projects:
-  - name: "Job Tailor"
-    url: https://example.com/
-    affiliation: Open University
-    startDate: 2020-11-01
-    endDate: 2021-04-30
+  - name: "\"Pet-Saving\" Robot"
+    url: # https://www.ctvnews.ca/vancouver/video/2025/08/13/students-compete-in-robotics-competition/
+    affiliation: Engineering Physics "Robot Summer" Competition
+    startDate: 2025-08-01
+    endDate:
     highlights:
-      - Developed an AI-powered résumé editor app to create tailored résumés from users' CVs based on specific job descriptions.
-      - Acquired more than 100,000 user sign ups in 3 months and more than 10,000 active monthly users.
-      - Generated profit of upwards \$20,000 yearly with a team of only four developers and three business operatives
+      - Won *1st place* with an autonomous robot that used LIDAR and IMUs to collect and move plushies, built in just *6 weeks*
+      - Rapidly manufactured an all-metal chassis and 3 DOF robot arm with 3D printed and manually machined parts on a lathe and mill
+      - Supported team in software architectural design and electrical hardware integration by maintaining OnShape/Solidworks 3D models
 
 skills:
-  - category: Soft Skills
+  - category: Mechanical
     skills:
-      - Public Speaking
-      - Debating
-      - Communication
-      - Critical Thinking
-      - Leadership
-      - Persuasive Writing
-      - Technical Writing
-  - category: Programming
+      - CAD/CAM, Solidworks, OnShape, AutoCAD, Revit
+      - FEA
+      - 3D Printing
+      - Machining (lathe, mill, waterjet)
+  - category: Electrical
+    skills:
+      - Circuit design (Altium)
+      - Ansys HFSS
+      - Through hole and SMT soldering
+      - Amateur Radio Operator
+      - VNA
+  - category: Software
     skills:
       - Python
-      - SQL, PostgreSQL
-      - MATLAB/Octave
-      - HTML
-      - CSS
-      - Javascript
+      - Java/C#
+      - git
+      - MATLAB
+      - Excel
       - Typst
-      - LaTeX
-  - category: Tools
-    skills:
-      - Microsoft Word
-      - Git
-      - Docker
-      - Visual Studio Code
-      - Canva
-  - category: Web Development
-    skills:
-      - React
-      - Next.js
-      - million.js
-      - Svelte & Sveltekit
-      - Tailwind CSS
-      - Node.js
-      - Deno
-      - FastAPI
-      - Flask
-  - category: BI & Data Analytics
-    skills:
-      - Microsoft Excel
-      - Microsoft Power BI
-      - Jupyter Notebook
-      - Numpy
-      - Pandas
-      - Plotly
-      - Altair
-
+      - VSCode
 languages:
-  - language: English
-    fluency: Native speaker
-  - language: German
-    fluency: Native speaker
-  - language: Japanese
-    fluency: Basic proficiency
+  # - language: English
+  #   fluency: Native speaker
+  # - language: German
+  #   fluency: Native speaker
+  # - language: Japanese
+  #   fluency: Basic proficiency
 
 interests:
-  - Video Games
-  - Anime
-  - Reading Non-fiction
-  - Classical and Original Soundtrack Music
+  # - Video Games
+  # - Anime
+  # - Reading Non-fiction
+  # - Classical and Original Soundtrack Music
 
 references:
   # You can comment out the entries below if you don't have any references
   # The same goes for the publications
 
-  - name: Dr. Jane Austin
-    reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
-    url: https://janeaustin.com
+  # - name: Dr. Jane Austin
+  #   reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
+  #   url: https://janeaustin.com

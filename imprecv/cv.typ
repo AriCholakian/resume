@@ -98,7 +98,7 @@
     #if ("profiles" in info.personal) and (info.personal.profiles.len() > 0) {
         for profile in info.personal.profiles {
             profiles.push(
-                box(link(profile.url)[#profile.url.split("//").at(1)])
+                box(link(profile.url)[#profile.network: #profile.username])
             )
         }
     }
@@ -225,8 +225,8 @@
         == #title
         #for project in info.projects {
             // Parse ISO date strings into datetime objects
-            let start = utils.strpdate(project.startDate)
-            let end = utils.strpdate(project.endDate)
+            let date = utils.strpdate(project.startDate)
+
             // Create a block layout for each project entry
             block(width: 100%, breakable: isbreakable)[
                 // Line 1: Project Name
@@ -236,7 +236,8 @@
                     *#project.name* \
                 ]
                 // Line 2: Organization and Date
-                #text(style: "italic")[#project.affiliation]  #h(1fr) #utils.daterange(start, end) \
+                #text(style: "italic")[#project.affiliation] 
+                #h(1fr) #date \
                 // Summary or Description
                 #for hi in project.highlights [
                     - #eval(hi, mode: "markup")
@@ -315,7 +316,7 @@
                 ]
                 // Line 2: Publisher and Date
                 #if pub.publisher != none [
-                    Published on #text(style: "italic")[#pub.publisher]  #h(1fr) #date \
+                    Published in #text(style: "italic")[#pub.publisher]  #h(1fr) #date \
                 ] else [
                     In press \
                 ]
@@ -324,7 +325,7 @@
     ]}
 }
 
-#let cvskills(info, title: "Skills, Languages, Interests", isbreakable: true) = {
+#let cvskills(info, title: "Skills", isbreakable: true) = {
     if (("languages" in info) or ("skills" in info) or ("interests" in info)) and ((info.languages != none) or (info.skills != none) or (info.interests != none)) {block(breakable: isbreakable)[
         == #title
         #if ("languages" in info) and (info.languages != none) [
