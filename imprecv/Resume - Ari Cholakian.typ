@@ -1,6 +1,6 @@
 #import "cv.typ": *
 
-#let cvdata = yaml("template.yml")
+#let cvdata = yaml("Content.yml")
 
 #let uservars = (
     headingfont: "PT Serif",

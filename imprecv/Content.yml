@@ -3,7 +3,7 @@
 personal:
   name: Ari Cholakian
   email: ari.cholakian@gmail.com
-  phone: + 17788294303
+  phone: "17788294303"
   url: https://aricholakian.github.io
   titles:
     - Engineering Physics
@@ -13,7 +13,7 @@ personal:
     country: Canada
   profiles:
     - network: LinkedIn
-      username: Ari Mesrob Cholakian
+      username: ari-mesrob-cholakian
       url: https://linkedin.com/in/ari-mesrob-cholakian
 
 work:
@@ -89,7 +89,7 @@ publications:
 
 projects:
   - name: "\"Pet-Saving\" Robot"
-    url: # https://www.ctvnews.ca/vancouver/video/2025/08/13/students-compete-in-robotics-competition/
+    url: https://www.ctvnews.ca/vancouver/video/2025/08/13/students-compete-in-robotics-competition/
     affiliation: Engineering Physics "Robot Summer" Competition
     startDate: 2025-08-01
     endDate:
