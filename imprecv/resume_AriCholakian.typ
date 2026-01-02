@@ -8,7 +8,7 @@
     fontsize: 9pt, // 10pt, 11pt, 12pt
     linespacing: 7pt,
     sectionspacing: 6pt,
-    showAddress:  false, // true/false show address in contact info
+    showAddress:  true, // true/false show address in contact info
     showNumber: true,  // true/false show phone number in contact info
     showTitle: true,   // true/false show title in heading
     headingsmallcaps: false, // true/false use small caps for headings

@@ -15,28 +15,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install vendored fonts
-        run: |
-          set -e
-          sudo apt-get update
-          sudo apt-get install -y fontconfig
-
-          mkdir -p ~/.local/share/fonts
-          cp fonts/PTSerif/*.ttf ~/.local/share/fonts/
-
-          fc-cache -fv
-
       - name: Compile Resume
         # We move into the directory or point to the file path
         # Assuming resume_AriCholakin.typ is your main file
-        run: typst compile imprecv/resume_AriCholakian.typ resume_AriCholakian.pdf --font-path ~/.local/share/fonts
+        run: typst compile imprecv/resume_AriCholakian.typ resume.pdf --font-path fonts
 
       - name: Update Latest Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           name: Latest Resume Build
-          files: resume_AriCholakin.pdf
+          files: resume.pdf
           make_latest: true
+          overwrite_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
