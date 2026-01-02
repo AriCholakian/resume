@@ -25,11 +25,11 @@ jobs:
           cp fonts/PTSerif/*.ttf ~/.local/share/fonts/
 
           fc-cache -fv
-          
+
       - name: Compile Resume
         # We move into the directory or point to the file path
         # Assuming resume_AriCholakin.typ is your main file
-        run: typst-latest compile imprecv/resume_AriCholakin.typ resume_AriCholakin.pdf --font-path ~/.local/share/fonts
+        run: typst compile imprecv/resume_AriCholakin.typ resume_AriCholakin.pdf --font-path ~/.local/share/fonts
 
       - name: Update Latest Release
         uses: softprops/action-gh-release@v2
