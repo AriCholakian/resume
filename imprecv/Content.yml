@@ -6,7 +6,7 @@ personal:
   phone: "+1 (778) 829-4303"
   url: https://aricholakian.github.io
   titles:
-    - Engineering Physics
+    - UBC Engineering Physics
   location:
     city: Burnaby
     region: British Columbia
@@ -21,12 +21,12 @@ work:
     url: https://amegroup.ca
     location: Vancouver, BC
     positions:
-      - position: Mechanical Engineering Coop
+      - position: Mechanical Engineering Co-op
         startDate: 2025-01-01
         endDate: 2025-05-01
         highlights:
-          - Prepared and issued nearly 30 mechanical drawing sets in AutoCAD and Revit 3D for a variety of projects, including data centres, biotech labs, office renovations, multi-unit residential projects, and District Energy connections
-          - Designed energy-efficient and cost-effective HVAC and plumbing systems according to standards and manufacturer guidelines
+          - Prepared and issued nearly *30 mechanical drawing* sets in AutoCAD and Revit 3D for a variety of projects, including data centres, biotech labs, office renovations, multi-unit residential projects, and District Energy connections, generating *\$150,000 of revenue*
+          - Designed HVAC/plumbing systems beyond just standards and manufacturer guidelines to cut costs in installation and energy for clients
           - Ran flow, energy, and stress simulations using internal and industry-standard tools like AutoCAD MEP and CAEPIPE
 
   - organization: UBC Orbit - Satellite Design Team
@@ -88,15 +88,15 @@ publications:
     url: https://ccece2025.ieee.ca/technical-program/#:~:text=Using%20a%20Dynamic%20Channel%20Emulator%20for%20CubeSat%20GNSS%20Receiver%20Test%20and%20IntegrationEisha%20Khan%2C%20David%20Tang%2C%20Ari%20Cholakian%2C%20Max%20Xiang%2C%20Warrick%20Lo%2C%20David%20G.%20Michelson
 
 projects:
-  - name: "\"Pet-Saving\" Robot"
+  - name: "Autonomous Rescue Robot"
     url: https://www.ctvnews.ca/vancouver/video/2025/08/13/students-compete-in-robotics-competition/
-    affiliation: Engineering Physics "Robot Summer" Competition
+    affiliation: Engineering Physics Mechatronics Competition
     startDate: 2025-08-01
     endDate:
     highlights:
       - Won *1st place* with an autonomous robot that used LIDAR and IMUs to collect and move plushies, built in just *6 weeks*
       - Rapidly manufactured an all-metal chassis and 3 DOF robot arm with 3D printed and manually machined parts on a lathe and mill
-      - Supported team in software architectural design and electrical hardware integration by maintaining OnShape/Solidworks 3D models
+      - Intentionally decoupled and forward-looking design allowed for seamless electrical hardware integration
 
 skills:
   - category: Mechanical
