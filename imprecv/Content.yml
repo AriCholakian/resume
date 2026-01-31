@@ -27,7 +27,7 @@ work:
         highlights:
           - Prepared and issued nearly *30 mechanical drawing* sets in AutoCAD and Revit 3D for a variety of projects, including data centres, biotech labs, office renovations, multi-unit residential projects, and District Energy connections, generating *\$150,000 of revenue*
           - Designed HVAC/plumbing systems beyond just standards and manufacturer guidelines to cut costs in installation and energy for clients
-          - Ran flow, energy, and stress simulations using internal and industry-standard tools like AutoCAD MEP and CAEPIPE
+          - Ran flow, energy, and stress simulations using internal and industry-standard tools like *AutoCAD MEP* and *CAEPIPE*
 
   - organization: UBC Orbit - Satellite Design Team
     url: 
@@ -37,17 +37,18 @@ work:
         startDate: 2025-09-01
         endDate: Present
         highlights:
-          - Oversaw the high level system architecture, design, integration, and verification of the *ALEASAT* project, a student-led disaster recovery CubeSat mission at UBC with the European Space Agency (ESA)
+          - Oversaw the high level system architecture, design, integration, and verification of the *ALEASAT* project, a student-led disaster recovery CubeSat mission at UBC with the European Space Agency (ESA) and other international partners
           - Designed budgets and enabled the integration of the satellite's many subsystems like power, on-board software, and communications
-          - Supported FlatSats, vibration, thermal and EMC testing campaigns to verify functionality
-          - Led the *team of 70* undergraduate and graduate engineering students to meet mission objectives and worked directly with ESA, ITU, IARU, ISED, Global Affairs Canada and Radio Amateurs to ensure regulatory compliance
+          - Supported extensive standardized testing campaigns in *Flatsats, vibration, thermal and EMC* to verify functionality
+          - Led the *team of 70* undergraduate and graduate engineering students to meet mission objectives and worked directly with ESA, ITU, IARU, ISED, Global Affairs Canada and Radio Amateurs Canada to ensure regulatory compliance
+          - Executed the design, and installation of CubeSat local testing facilities, accelerating the West Coast and Canadian space industry
       - position: Radio Frequency Communications and  Structure Designer
         startDate: 2023-09-01
         endDate: 2025-05-01
         highlights:
-          - Designed the Antenna Deployer Module timer PCB using Altium, followed by fabrication and SMT reflow assembly
-          - Designed a space-qualified burn-wire deployer mechanism and carried out environmental testing in ESA CubeSat facilities, adhering to Design for Manufacture practices and ECSS guidelines
-          - Simulated antenna properties and radiation patterns in Ansys Electromagnetic Suite to optimize for LEO omnidirectionality
+          - Designed the Antenna Deployer Module timer PCB using *Altium*, followed by fabrication and *SMT reflow* assembly
+          - Designed a *space-qualified* burn-wire deployer mechanism and carried out environmental testing in ESA CubeSat facilities, adhering to *ECSS* guidelines and *DFMA* practices to save thousands in manufacturing and qualification costs
+          - Simulated antenna properties and radiation patterns in *Ansys Electromagnetic Suite* to optimize for LEO omnidirectionality
           
 
 education:
@@ -94,9 +95,10 @@ projects:
     startDate: 2025-08-01
     endDate:
     highlights:
-      - Won *1st place* with an autonomous robot that used LIDAR and IMUs to collect and move plushies, built in just *6 weeks*
-      - Rapidly manufactured an all-metal chassis and 3 DOF robot arm with 3D printed and manually machined parts on a lathe and mill
+      - Won *1st place* with a robust and autonomous robot to collect and move plushies with a servo claw, built in just *6 weeks*
+      - Rapidly manufactured an all-metal chassis and *3 DOF robot arm* with 3D printed and manually machined parts on a lathe and mill
       - Intentionally decoupled and forward-looking design allowed for seamless electrical hardware integration
+      - Developed custom *object-detection* algorithm and implemented improvements to skid steering *PID* logic control
 
 skills:
   - category: Mechanical
@@ -104,7 +106,7 @@ skills:
       - CAD/CAM, Solidworks, OnShape, AutoCAD, Revit
       - FEA
       - 3D Printing
-      - Machining (lathe, mill, waterjet)
+      - Machining (lathe, mill, waterjet, lasercutter)
   - category: Electrical
     skills:
       - Circuit design (Altium)
