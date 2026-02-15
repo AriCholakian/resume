@@ -25,9 +25,10 @@ work:
         startDate: 2025-01-01
         endDate: 2025-05-01
         highlights:
-          - Prepared and issued nearly *30 mechanical drawing* sets in AutoCAD and Revit 3D for a variety of projects, including data centres, biotech labs, office renovations, multi-unit residential projects, and District Energy connections, generating *\$150,000 of revenue*
-          - Designed HVAC/plumbing systems beyond just standards and manufacturer guidelines to cut costs in installation and energy for clients
-          - Ran flow, energy, and stress simulations using internal and industry-standard tools like *AutoCAD MEP* and *CAEPIPE*
+          - Prepared and issued *30 mechanical drawing* sets in AutoCAD and Revit 3D and generated *\$150,000 of revenue*
+          - Designed HVAC/plumbing systems for data centers, biotech labs, multi-unit residential projects, and District Energy connections
+          - Cut costs for clients through detail-oriented, thorough and creative problem-solving, going beyond minimum guidelines 
+          - Configured and performed flow, energy, and stress simulations in *AutoCAD MEP*, *CAEPIPE*, and internal tools
 
   - organization: UBC Orbit - Satellite Design Team
     url: 
@@ -37,16 +38,16 @@ work:
         startDate: 2025-09-01
         endDate: Present
         highlights:
-          - Oversaw the high level system architecture, design, integration, and verification of the *ALEASAT* project, a student-led disaster recovery CubeSat mission at UBC with the European Space Agency (ESA) and other international partners
-          - Designed budgets and enabled the integration of the satellite's many subsystems like power, on-board software, and communications
-          - Supported extensive standardized testing campaigns in *Flatsats, vibration, thermal and EMC* to verify functionality
-          - Led the *team of 70* undergraduate and graduate engineering students to meet mission objectives and worked directly with ESA, ITU, IARU, ISED, Global Affairs Canada and Radio Amateurs Canada to ensure regulatory compliance
-          - Executed the design, and installation of CubeSat local testing facilities, accelerating the West Coast and Canadian space industry
+          - Directed the system architecture, design, integration, and verification of the *ALEASAT* project, a student-led disaster recovery CubeSat mission at UBC with the European Space Agency (ESA) and other international partners
+          - Led a *team of 70* undergraduate and graduate engineering students to design and meet mission objectives
+          - Designed budgets and enabled the integration of the satellite's power, on-board software, and communications subsystems
+          - Supported *Flatsat, vibration, thermal and EMC* testing campaigns to verify functionality
+          - Executed the design and installation of local CubeSat testing facilities, accelerating the West Coast and Canadian space industry
       - position: Radio Frequency Communications and  Structure Designer
         startDate: 2023-09-01
         endDate: 2025-05-01
         highlights:
-          - Designed the Antenna Deployer Module timer PCB using *Altium*, followed by fabrication and *SMT reflow* assembly
+          - Designed the Antenna Deployer Module timer PCB in *Altium*, followed by fabrication and *SMT reflow* assembly
           - Designed a *space-qualified* burn-wire deployer mechanism and carried out environmental testing in ESA CubeSat facilities, adhering to *ECSS* guidelines and *DFMA* practices to save thousands in manufacturing and qualification costs
           - Simulated antenna properties and radiation patterns in *Ansys Electromagnetic Suite* to optimize for LEO omnidirectionality
           
@@ -55,7 +56,7 @@ education:
   - institution: University of British Columbia
     url: https://www.engphys.ubc.ca/
     location: Vancouver, BC
-    area:  Engineering Physics, 3.70 GPA
+    area:  Engineering Physics, 3.7 GPA
     studyType: Bachelor of Applied Science
     startDate: 2023-09-01
     endDate: 2028-05-01
@@ -77,16 +78,15 @@ awards:
 certificates:
 
 publications:
+  - name: Using a Dynamic Channel Emulator for CubeSat GNSS Receiver Test and Integration
+    publisher: 2025 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE) 
+    releaseDate: 2025-05-01
+    url: https://ieeexplore.ieee.org/document/11364492
+    
   - name: A Dynamic Channel Emulator for CubeSat System Test and Integration
     publisher: 2024 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE) 
     releaseDate: 2024-09-01
     url: https://ieeexplore.ieee.org/document/10667238
-
-
-  - name: Using a Dynamic Channel Emulator for CubeSat GNSS Receiver Test and Integration
-    publisher: 2025 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE) 
-    releaseDate: 2025-05-01
-    url: https://ccece2025.ieee.ca/technical-program/#:~:text=Using%20a%20Dynamic%20Channel%20Emulator%20for%20CubeSat%20GNSS%20Receiver%20Test%20and%20IntegrationEisha%20Khan%2C%20David%20Tang%2C%20Ari%20Cholakian%2C%20Max%20Xiang%2C%20Warrick%20Lo%2C%20David%20G.%20Michelson
 
 projects:
   - name: "Autonomous Rescue Robot"
@@ -95,10 +95,10 @@ projects:
     startDate: 2025-08-01
     endDate:
     highlights:
-      - Won *1st place* with a robust and autonomous robot to collect and move plushies with a servo claw, built in just *6 weeks*
-      - Rapidly manufactured an all-metal chassis and *3 DOF robot arm* with 3D printed and manually machined parts on a lathe and mill
-      - Intentionally decoupled and forward-looking design allowed for seamless electrical hardware integration
-      - Developed custom *object-detection* algorithm and implemented improvements to skid steering *PID* logic control
+      - Desgined a robust, autonomous robot in a demanding 6 week competition where we secured 1st place.
+      - Rapidly prototyped and manufactured a modularm all-metal chassis and *3 DOF robot arm*
+      - Used a manual mill, lathe and 3D printers to manufacture fully custom parts designed in *OnShape*
+      - Designed custom LIDAR object-detection and incorporated dead-reckoning into feedback loop to significantly improve skid-steering 
 
 skills:
   - category: Mechanical

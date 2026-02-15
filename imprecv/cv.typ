@@ -105,7 +105,7 @@
 
     #set text(font: uservars.bodyfont, weight: "medium", size: uservars.fontsize * 1)
     #pad(x: 0em)[
-        #profiles.join([#sym.space.en #sym.diamond.filled #sym.space.en])
+        #profiles.join([#sym.space.en #sym.dash #sym.space.en])
     ]
 ]
 
